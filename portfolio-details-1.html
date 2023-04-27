@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Details</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+      <!-- Favicons -->
+  <link href="assets/img/bg.png" rel="icon">
+  <link href="assets/img/bg.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+    <style>
+      body {
+  background-image: url("assets/img/CookiesCover.png");
+ 
+  background-size: contain;
+  position: relative;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+          
+
+body::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2); /* set the opacity to 0.5 */
+  z-index: -1; /* push the layer behind the content */
+}
+      h1 {
+        font-size: 3em;
+        margin-top: 2em;
+      }
+      h2 {
+        font-size: 2em;
+        margin-top: 0;
+      }
+      p {
+        font-size: 1.2em;
+        line-height: 1.5;
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+      img {
+        width: 100%;
+        height: auto;
+        max-width: 800px;
+        padding: 50px;
+        box-sizing: border-box;
+      }
+      @media (max-width: 600px) {
+        img {
+          padding: 20px;
+        }
+      }
+
+</style>
+
+<script>
+function scrollToSection(sectionId) {
+  const section = document.querySelector(`#${sectionId}`);
+  const position = section.offsetTop;
+  window.scrollTo({ top: position, behavior: 'smooth' });
+}
+</script>
+  </head>
+ 
+  <body>
+
+ 
+
+
+
+
+    <!-- ======= Mobile nav toggle button ======= -->
+    <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+    <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex flex-column justify-content-center">
+  
+      <nav id="navbar" class="navbar nav-menu">
+        <ul>
+          <li><a href="index.html#hero" class="nav-link scrollto active"><i class="bx bx-home-smile"></i> <span>Home</span></a></li>
+          <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-face"></i> <span>About</span></a></li>
+          <li><a href="index.html#services" class="nav-link scrollto"><i class="bx bx-bar-chart"></i> <span>Services</span></a></li>
+          <li><a href="index.html#resume" class="nav-link" onclick="scrollToSection('resume')"><i class="bx bx-briefcase-alt"></i> <span>Resume</span></a></li>
+          <li><a href="index.html#faq" class="nav-link" onclick="scrollToSection('faq')"><i class="bx bx-question-mark"></i> <span>FAQ</span></a></li>
+          <li><a href="index.html#portfolio" class="nav-link" onclick="scrollToSection('portfolio')"><i class="bx bx-palette"></i> <span>Design Work</span></a></li>
+          <li><a href="index.html#contact" class="nav-link" onclick="scrollToSection('contact')"><i class="bx bx-paper-plane"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+  
+    </header><!-- End Header -->
+  
+  
+
+    <main id="main">
+
+      <!-- ======= Breadcrumbs ======= -->
+      <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+  
+         
+          <h1>Cookie Dough To-Go Design Case Study</h1>
+  
+        </div>
+      </section><!-- End Breadcrumbs -->
+  
+      <!-- ======= Portfolio Details Section ======= -->
+     <section id="portfolio-details" class="portfolio-details">
+    <div class="container">
+  
+      <div class="row gy-4">
+  
+        <div class="col-lg-8">
+          <div class="portfolio-details-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+  
+              <div class="swiper-slide">
+                <img src="assets/img/hi2.png" alt="">
+              </div>
+  
+              <div class="swiper-slide">
+                <img src="assets/img/hi3.png" alt="">
+              </div>
+  
+              <div class="swiper-slide">
+                <img src="assets/img/cookiesbg.png" alt="">
+              </div>
+  
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+  
+        <div class="col-lg-4">
+          <div class="portfolio-info">
+            <h3>Project information</h3>
+            <ul>
+              <li><strong>Category</strong>: App Design</li>
+              <li><strong>Client</strong>: Visual Elements of User Interface Design from the California Institute of the Arts</li>
+              <li><strong>Project date</strong>: 2022</li>
+            </ul>
+          </div>
+          </div>
+       <div style="background-color: rgba(255, 255, 255, 0.6); color: #000;">
+          <h2 style="padding-top: 20px;" >Situation</h2>
+          <p>This project was created for the course Visual Elements of User Interface Design from the California Institute of the Arts. Each week was broken down into four distinct topics. The first week was an introduction to user interface design. The second week we learned about the formal elements of interface design. On the third week, we learned about active elements of user interface design. The focus of the final week was composing the elements of the interface into a cohesive design whole.</p>
+          <img src="assets/img/cookiesbg.png" alt="Placeholder image">
+        </div>
+
+      <div style="background-color: rgba(255, 255, 255, 0.6); color: #000;">
+         <h2 style="padding-top: 20px;" >Problem</h2>
+         <p>Each week, students were given several assignments that were essentially development stages towards a final project. The main outcome of the course comprised of a sketch for an app that focused on one simple task.</p>
+       </div>
+
+       <div style="background-color: rgba(255, 255, 255, 0.6); color: #000;">
+        <h2 style="padding-top: 20px;" >Concept</h2>
+        <p>This app locates cookie dough or cookie dough ice cream immediately for the user. The user can scan a code with their current empty container/package or choose a different brand of ice cream or cookie dough. They can opt for a grocery store brand (e.g., haagen daas, Breyers, etc) or they can choose to purchase from a particular dispensary (e.g., Dairy Queen, Baskin Robbins, etc).App users can choose between scooped, soft serve, raw dough, baked, etc. They can choose to either drive to the location of their choosing (by selecting how far they are willing to travel) or they can opt for delivery.</p>
+        <img src="assets/img/crumbsbg.png" alt="Placeholder image">
+      </div>
+      <div style="background-color: rgba(255, 255, 255, 0.6); color: #000;">
+        <h1>Process to Building Cookie Dough To-Go</h1>
+        <h2 style="padding-top: 20px;" >Mood Board</h2>
+        <p>In this assignment, I defined the look, feel, style for my app design concept by creating a mood board for my service aimed at getting cookie dough to individuals quickly.</p>
+        <img src="assets/img/Mood Board.png" alt="Placeholder image">
+      </div>
+      <div style="background-color: rgba(255, 255, 255, 0.6); color: #000;">
+        <h2 style="padding-top: 20px;" >Pattern Library</h2>
+        <p>In this assignment, I created a pattern library of interface elements for my app. I applied the look and feel established in the mood board when designing these elements.</p>
+        <img src="assets/img/Pattern Library.png" alt="Placeholder image">
+      </div>
+      <div style="background-color: rgba(255, 255, 255, 0.6); color: #000;">
+        <h2 style="padding-top: 20px;" >Research</h2>
+        <p>This product is suitable for males and females of all ages (parental consent is required for those under 18). They should be minimally tech savvy (although the design will take into account maximum user usability). The product is geared toward anyone who loves cookie dough, including those who are heartbroken, overtaken by “the munchies,” or feel like a tasty last-minute treat.The tagline: Cookie Dough To-Go… Cookies in a Snap!</p>
+        <img src="assets/img/research.jpg" alt="Placeholder image">
+      </div>
+
+      <div style="background-color: rgba(255, 255, 255, 0.6); color: #000;">
+        <h2 style="padding-top: 20px;" >Logo Design </h2>
+        <p>In this assignment, I created a pattern library of interface elements for my app. I applied the look and feel established in the mood board when designing these elements.</p>
+        <img src="assets/img/logo.png" alt="Placeholder image">
+      </div>
+
+      <div style="background-color: rgba(255, 255, 255, 0.6); color: #000;">
+        <h2 style="padding-top: 20px;" >HiFi Designs</h2>
+        <p>In the final assignment for the course, I used the interface elements designed in previous weeks to make two different screens for my interface. Each screen highlighted a different function.</p>
+        <img src="assets/img/hi1.png" alt="Placeholder image">
+        <img src="assets/img/hi2.png" alt="Placeholder image">
+        <img src="assets/img/hi3.png" alt="Placeholder image">
+      </div>
+
+     
+     
+      </div>
+
+      
+
+    </div>
+
+  </div>
+</section>
+
+  </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <h3>Julie V. Scher</h3>
+        <p>Behaviour Analyst. Owner of <a href="https://www.ABAintheGTA.com" target="_blank">ABAintheGTA.com</a>.</p>
+        <div class="social-links">
+          <a href="https://abainthegta.blogspot.com/" target="_blank" class="google-plus"><i class="bx bxl-blogger"></i></a>
+          <a href="https://www.linkedin.com/in/julie-v-scher-a3905b223/" target="_blank" class="google-plus"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://twitter.com/ABAintheGTA/" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/abasupervisors" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/abainthegta/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.behance.net/julievscher" target="_blank"  class="linkedin"><i class="bx bxl-behance"></i></a>
+          <a href="https://dribbble.com/JulieVScher" target="_blank"  class="linkedin"><i class="bx bxl-dribbble"></i></a>
+        </div>
+        <div class="copyright">
+          &copy; Copyright 2023 <strong><span>Julie V. Scher</span></strong>. All Rights Reserved
+        </div>
+       
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+  
+
+</body>
+
+</html>
