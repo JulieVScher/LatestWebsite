@@ -1196,12 +1196,12 @@ section {
   margin-top: 1rem;
 }
 
-.pill-shaped-button:hover {
-  background-color: #860e05;
--direction: column;
-  justify-content: center;
-  height: 100%;
+
+.btn-primary:hover {
+  background-color: #B30000 !important;
+  border-color: #B30000 !important;
 }
+
 
 # Contact Section
 --------------------------------------------------------------*/
@@ -1323,7 +1323,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #0678e3;
+  background: #860e05;
 }
 
 .pill-shaped-button {
