@@ -94,16 +94,18 @@ function scrollToSection(sectionId) {
     <header id="header" class="d-flex flex-column justify-content-center">
   
       <nav id="navbar" class="navbar nav-menu">
-        <ul>
-          <li><a href="index.html" class="nav-link scrollto active"><i class="bx bx-home-smile"></i> <span>Home</span></a></li>
-          <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-face"></i> <span>About</span></a></li>
-          <li><a href="index.html#services" class="nav-link scrollto"><i class="bx bx-bar-chart"></i> <span>Services</span></a></li>
-          <li><a href="index.html#resume" class="nav-link" onclick="scrollToSection('resume')"><i class="bx bx-briefcase-alt"></i> <span>Resume</span></a></li>
-          <li><a href="index.html#faq" class="nav-link" onclick="scrollToSection('faq')"><i class="bx bx-question-mark"></i> <span>FAQ</span></a></li>
-          <li><a href="index.html#portfolio" class="nav-link" onclick="scrollToSection('portfolio')"><i class="bx bx-palette"></i> <span>Design Work</span></a></li>
-          <li><a href="blog.html" class="nav-link" onclick="scrollToSection('contact')"><i class="bx bx-pencil"></i> <span>Blog</span></a></li>
-          <li><a href="index.html#contact" class="nav-link" onclick="scrollToSection('contact')"><i class="bx bx-paper-plane"></i> <span>Contact</span></a></li>
-          </ul>
+        <nav id="navbar" class="navbar nav-menu">
+          <ul>
+            <li><a href="index.html" class="nav-link scrollto active"><i class="bx bx-home-smile"></i> <span>Home</span></a></li>
+            <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-face"></i> <span>About</span></a></li>
+            <li><a href="index.html#services" class="nav-link scrollto"><i class="bx bx-bar-chart"></i> <span>Services</span></a></li>
+            <li><a href="index.html#portfolio" class="nav-link" onclick="scrollToSection('portfolio')"><i class="bx bx-palette"></i></i> <span>Resume</span></a></li>
+            <li><a href="index.html#content" class="nav-link" onclick="scrollToSection('faq')"><i class="bx bx-question-mark"></i> <span>FAQ</span></a></li>
+            <li><a href="index.html#portfolio" class="nav-link" onclick="scrollToSection('portfolio')"><i class="bx bx-palette"></i> <span>Design Work</span></a></li>
+            <li><a href="blog.html" class="nav-link" onclick="scrollToSection('contact')"><i class="bx bx-pencil"></i> <span>Blog</span></a></li>
+            <li><a href="index.html#contact" class="nav-link" onclick="scrollToSection('contact')"><i class="bx bx-paper-plane"></i> <span>Contact</span></a></li>
+            </ul>
+        </nav><!-- .nav-menu -->
       </nav><!-- .nav-menu -->
   
     </header><!-- End Header -->
@@ -253,7 +255,13 @@ function scrollToSection(sectionId) {
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-
+  <script>
+    function scrollToSection(sectionId) {
+      const section = document.querySelector(`#${sectionId}`);
+      const position = section.offsetTop;
+      window.scrollTo({ top: position, behavior: 'smooth' });
+    }
+  </script>
   
 
 </body>
